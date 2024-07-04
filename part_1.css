@@ -3048,7 +3048,7 @@
  }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 900px) { /* 400 */  
 
  .contacts .block_1 .text {
   width: 300px;
