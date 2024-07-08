@@ -621,293 +621,248 @@
   color: orange;
 }
 
-/* main_block */
+/* main_info */
 
-.main_block_B {
-    width: 100%;
-    height: 1500px;
-    /* background-color: rgb(44, 176, 176); */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main_block_B .main_text {
-    width: 850px;
-    height: 80px;
-    /* background-color: green; */
-    margin-top: 50px;
-}
-
-.main_block_B .main_text h1 {
-    font-size: 60px;
-    font-weight: 400;
-    text-align: center;
-}
-
-.main_block_B .line {
-    width: 900px;
-    height: 10px;
-    background-color: orange;
-    margin-top: 10px;
-}
-
-.main_block_B .block_info {
-  height: 1400px;
+.main_information {
+  height: 600px;
   width: 100%;
-  /* background-color: red; */
-  margin-top: 50px;
-  display: flex;
-  display: flex;
-  justify-content: space-around;
-}
-
-.main_block_B .block_info .block_1 {
-  width: 450px;
-  height: 1130px;
-  /* background-color: rgb(42, 140, 165); */
+  /* background-color: rebeccapurple; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-bottom: 100px;
 }
 
-.main_block_B .block_info .block_1 .main_text {
-  width: 450px;
-  height: 100px;
-  /* background-color: rgb(82, 67, 216);  */
-  margin-bottom: 20px;
-  margin-top: 50px;
+.main_information .block_1 {
+  width: 100%;
+  height: 200px;
+  /* background-color: rgb(220, 66, 66); */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: blue; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main_block_B .block_info .block_1 .main_text h1 {
-  font-size: 40px;
+.main_information .block_1 .main_text {
+  height: 50px;
+  width: 700px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_information .block_1 .orange_line {
+  width: 800px;
+  height: 15px;
+  background-color: orange;
+  margin-top: 15px;
+}
+
+.main_information .block_1 .main_text h1 {
+  font-size: 55px;
   font-weight: 400;
-  text-align: left;
-  text-align: center;
-}
-
-.main_block_B .block_info .block_1 .center_text {
-  width: 450px;
-  height: 520px;
-  /* background-color: rgb(248, 68, 179); */
-}
-
-.main_block_B .block_info .block_1 .center_text p {
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
+  display: block;
 }
 
 /*  */
 
-.main_block_B .block_info {
-  height: 1200px;
+.main_information .block_2 {
   width: 100%;
-  /* background-color: red; */
-  margin-top: 50px;
-  display: flex;
-  display: flex;
-  justify-content: space-around;
-}
-
-.main_block_B .block_info .block_2 {
-  width: 450px;
-  height: 1130px;
-  /* background-color: rgb(42, 140, 165); */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.main_block_B .block_info .block_2 .main_text {
-  width: 450px;
-  height: 100px;
-  /* background-color: rgb(82, 67, 216);  */
-  margin-bottom: 20px;
-  margin-top: 50px;
+  height: 400px;
+  /* background-color: rgb(54, 150, 54); */
   display: flex;
   align-items: center;
-  justify-content: center;
-  /* background-color: blue; */
-}
-
-.main_block_B .block_info .block_2 .main_text h1 {
-  font-size: 40px;
-  font-weight: 400;
-  text-align: left;
-  text-align: center;
-}
-
-.main_block_B .block_info .block_2 .center_text {
-  width: 450px;
-  height: 520px;
-  /* background-color: rgb(248, 68, 179); */
-}
-
-.main_block_B .block_info .block_2 .center_text p {
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-}
-
-/*  */
-
-.main_block_B .block_info {
-  height: 1200px;
-  width: 100%;
-  /* background-color: red; */
-  margin-top: 50px;
-  display: flex;
-  display: flex;
   justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main_block_B .block_info .block_3 {
+.main_information .block_2 a {
+  text-decoration: none;
+}
+
+.main_information .block_2 .mini_block_1 {
   width: 450px;
-  height: 1130px;
-  /* background-color: rgb(42, 140, 165); */
+  height: 350px;
+  /* background-color: rgb(201, 236, 26); */
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
-
-.main_block_B .block_info .block_3 .main_text {
-  width: 450px;
-  height: 100px;
-  /* background-color: rgb(82, 67, 216);  */
-  margin-bottom: 20px;
-  margin-top: 50px;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  /* background-color: blue; */
-}
-
-.main_block_B .block_info .block_3 .main_text h1 {
-  font-size: 40px;
-  font-weight: 400;
-  text-align: left;
-  text-align: center;
-}
-
-.main_block_B .block_info .block_3 .center_text {
-  width: 450px;
-  height: 520px;
-  /* background-color: rgb(248, 68, 179); */ 
-}
-
-.main_block_B .block_info .block_3 .center_text p {
-  font-size: 24px;
-  line-height: 30px;
-  text-align: center;
-}
-
-/*  */
-
-.geoma {
-  width: 1px;
-  height: 1200px;
-  background-color: grey;
-}
-
-.main_block_B .block_info .block_1 .image {
-  height: 450px;
-  width: 450px;
-  /* background-color: green; */
-  margin-top: 25px;
   background-image: url(business_photos/copy_photo_1.jpg);
   background-size: cover;
+  transition: transform 0.2s ease-in;
 }
 
-.main_block_B .block_info .block_2 .image {
-  height: 450px;
+.main_information .block_2 .mini_block_1:hover {
+  transform: translateY(-15px);
+}
+
+.main_information .block_2 .mini_block_1 h2 {
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*  */
+
+.main_information .block_2 .mini_block_2 {
   width: 450px;
-  /* background-color: green; */
-  margin-top: 25px;
+  height: 350px;
+  /* background-color: rgb(201, 236, 26); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(business_photos/copy_photo_2.jpg);
   background-size: cover;
+  transition: transform 0.2s ease-in;
 }
 
-.main_block_B .block_info .block_3 .image {
-  height: 450px;
+.main_information .block_2 .mini_block_2:hover {
+  transform: translateY(-15px);
+}
+
+.main_information .block_2 .mini_block_2 h2 {
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-shadow: 1px 1px 1px black;
+}
+
+/*  */
+
+.main_information .block_2 .mini_block_3 {
   width: 450px;
-  /* background-color: green; */
-  margin-top: 25px;
+  height: 350px;
+  /* background-color: rgb(201, 236, 26); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(business_photos/photo_copy_3.jpg);
   background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.2s ease-in;
+}
+
+.main_information .block_2 .mini_block_3:hover {
+  transform: translateY(-15px);
+}
+
+.main_information .block_2 .mini_block_3 h2 {
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-shadow: 1px 1px 1px black;
+}
+
+.grey_line_page {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  margin-bottom: 100px;
 }
 
 @media(max-width: 1200px) {
-  .main_block_B {
-    height: 4000px;
+  .main_information .block_2 .mini_block_1 {
+    width: 350px;
   }
 
-  .main_block_B .block_info {
-    height: 4 000px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .main_information .block_2 .mini_block_2 {
+    width: 350px;
+  }
+
+  .main_information .block_2 .mini_block_3 {
+    width: 350px;
+  }
+}
+
+@media(max-width: 1050px) {
+ .main_information {
+  height: 1400px;
+ } 
+
+ .main_information .block_2 {
+  height: 1200px;
+  flex-direction: column; 
+ }
+
+ .main_information .block_2 .mini_block_1 {
+  width: 900px;
+  background-image: url(business_photos/metallic-propeller-turning-inside-modern-airplane-engine-generated-by-ai.jpg);
+ }
+
+ .main_information .block_2 .mini_block_2 {
+  width: 900px;
+  background-image: url(business_photos/colorful-farm-fields-from-sunflower-wheat-rye-corn.jpg);
+ }
+
+ .main_information .block_2 .mini_block_3 {
+  width: 900px;
+  background-image: url(business_photos/ceo-blue-suit-close-up.jpg);
+ }
+}
+
+@media(max-width: 900px) {
+  .main_information .block_2 a {
     width: 100%;
   }
 
-  .main_block_B .block_info .block_1 {
+  .main_information .block_2 a .mini_block_1 {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1100px;
-    /* background-color: red; */
-  }
-
-  .main_block_B .block_info .block_1 .main_text {
-    width: 600px;
-    height: 60px;
-  }
-
-  .main_block_B .block_info  .block_1 .image {
-    width: 1000px;
-    background-image: url(business_photos/metallic-propeller-turning-inside-modern-airplane-engine-generated-by-ai.jpg);
-  }
-
-  .main_block_B .block_info .block_1 .center_text {
-    width: 1000px;
-    height: 200px;
   }
 
   /*  */
 
-  .geoma {
+  .main_information .block_2 a .mini_block_2 {
     width: 100%;
-    height: 1px;
   }
 
   /*  */
 
-  .main_block_B .block_info .block_2 {
+  .main_information .block_2 a .mini_block_3 {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1100px;
-    /* background-color: red; */
   }
 
-  .main_block_B .block_info .block_2 .main_text {
-    width: 600px;
-    height: 60px;
+
+
+  /*  */
+}
+
+@media(max-width: 800px) {
+  .main_information .block_1 .orange_line {
+    width: 400px;
+  }
+}
+
+@media(max-width: 700px) {
+  .main_information .block_1 .main_text {
+    width: 400px;
+    height: 80px;
   }
 
-  .main_block_B .block_info  .block_2 .image {
-    width: 1000px;
-    background-image: url(business_photos/colorful-farm-fields-from-sunflower-wheat-rye-corn.jpg);
+  .main_information .block_1 .main_text h1 {
+    font-size: 45px;
   }
 
-  .main_block_B .block_info .block_2 .center_text {
-    width: 1000px;
-    height: 200px;
+  .main_information {
+    margin-bottom: 50px;
+  }
+
+  .grey_line_page {
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 400px) {
+  .main_information .block_1 .main_text {
+    width: 300px;
+  }
+
+  .main_information .block_1 .main_text h1 {
+    font-size: 30px;
+  }
+
+  .main_information .block_1 .orange_line {
+    width: 300px;
   }
 }
