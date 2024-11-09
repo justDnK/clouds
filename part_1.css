@@ -87,7 +87,8 @@
   
   .nav {
     display: flex;
-    width: 435px;
+    width: 540px; 
+    /* 430 */
     padding: 0 40px;
     margin-right: 30px;
     /* background-color: red; */
@@ -115,6 +116,10 @@
   
   .nav .mini_menu a:hover {
     color: orange;
+  }
+
+  .nav .mini_menu .last-child:hover {
+    color: white;
   }
   
   .burger {
@@ -163,6 +168,7 @@
     .burger { display: flex; }
   
     .nav {
+        width: 430px;
         display: none;
         flex-direction: column;
         position: fixed;
@@ -207,6 +213,11 @@
     .menu .block {
         width: 100%;
     }
+
+    .nav .mini_menu {
+      width: 150px;
+    }
+
   }
   
   @media (max-width: 510px) {
@@ -3108,4 +3119,19 @@
 }
 
 
+/* LANGUAGE REFORMS */
 
+.nav .mini_menu .language {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.nav .mini_menu .language:hover {
+  background-color: rgb(197, 128, 1);
+}
