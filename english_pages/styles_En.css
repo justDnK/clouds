@@ -1,0 +1,93 @@
+.budova .block_bd_2 .block_text .block_2 .budova_block_2_En {
+    width: 300px;
+}
+
+@media(max-width: 500px) {
+    .block_info_1_En {
+        height: 950px;
+    } 
+
+    .block_info_1 .blockInfo-1_textes_En {
+        justify-content: flex-start;
+        height: 530px;
+    }
+    
+    .block_info_1 .blockInfo-1_textes_En .blockInfo-1_center_text {
+        height: 310px;
+        margin-bottom: 50px;
+    }
+
+    /* 2 */
+
+    .block_info_2_En {
+        height: 920px;
+    }
+
+    .block_info_2 .blockInfo-2_textes_En {
+        justify-content: flex-start;
+        height: 500px;
+    }
+    
+    .block_info_2 .blockInfo-2_textes_En .blockInfo-2_center_text {
+        height: 285px;
+        margin-bottom: 50px;
+    }
+
+    /* 3 */
+
+    .block_info_3_En {
+        height: 920px;
+    }
+
+    .block_info_3 .blockInfo-3_textes_En {
+        justify-content: flex-start;
+        height: 500px;
+    }
+    
+    .block_info_3 .blockInfo-3_textes_En .blockInfo-3_center_text {
+        height: 315px;
+        margin-bottom: 50px;
+    }
+
+        /* 4 */
+
+        .block_info_4_En {
+            height: 900px;
+        }
+    
+        .block_info_4 .blockInfo-4_textes_En {
+            justify-content: flex-start;
+            height: 480px;
+        }
+        
+        .block_info_4 .blockInfo-4_textes_En .blockInfo-4_center_text {
+            height: 285px;
+            margin-bottom: 50px;
+        }
+
+        .block_info_4 .blockInfo-4_textes_En .last_text-4_En {
+            margin: 0;
+            height: 50px;
+        }
+
+         /* 5 */
+
+        .block_info_5_En {
+            height: 955px;
+        }
+        
+        .block_info_5 .blockInfo-5_textes_En {
+            justify-content: flex-start;
+            height: 585px;
+        }
+            
+        .block_info_5 .blockInfo-5_textes_En .blockInfo-5_center_text {
+            height: 335px;
+            margin-bottom: 50px;
+        }
+    
+        .block_info_5 .blockInfo-5_textes_En .last_text-5_En {
+            margin: 0;
+            height: 50px;
+        }
+}
