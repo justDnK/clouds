@@ -91,3 +91,53 @@
             height: 50px;
         }
 }
+
+/* LANGUAGE REFORMS */
+
+.nav {
+    width: 540px;
+}
+
+.nav .mini_menu .language {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+    border-radius: 30px;
+    border: 2px solid white;
+  }
+  
+  .nav .mini_menu .language:hover {
+    background-color: rgb(197, 128, 1);
+  }
+
+@media(max-width: 900px) {
+    .nav {
+        width: 430px;
+    }
+}
+
+.block_info_2_aboutUs_En .block_222 .block_father_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+}
+
+.block_info_2_aboutUs_En .block_222 .block_father_2 .center_text_2 {
+    height: 270px;
+    margin: 0;
+}
+
+@media(max-width: 900px) {
+    .block_info_2_aboutUs_En .block_222 .block_father_2 {
+        margin: 0;
+    }
+}
+
+.block_info .block_1 .block_father .blockInfo-2__mainText {
+    justify-content: left;
+    height: 50px;
+}
