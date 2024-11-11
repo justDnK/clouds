@@ -339,14 +339,14 @@
   }
   
   .block_info .block_1 .block_father .main_text {
-    width: 200px;
+    width: 250px;
     height: 60px;
-    /* background-color: rgb(82, 67, 216);  */
+    /* background-color: rgb(82, 67, 216); */
     margin-bottom: 10px;
     margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
   }
   
   .block_info .block_1 .block_father .main_text h1 {
@@ -1119,3 +1119,4 @@
 .main_page {
   color: orange;
 }
+
