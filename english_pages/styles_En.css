@@ -141,3 +141,47 @@
     justify-content: left;
     height: 50px;
 }
+
+@media(max-width: 500px) {
+    .block_info_1_aboutUs_En {
+        height: 870px;
+    } 
+
+    .block_info_1_aboutUs_En .block_1 {
+        height: 470px;
+    }
+
+    .block_info_2_aboutUs_En {
+        height: 750px;
+    }
+
+    .block_info_2_aboutUs_En .block_222 {
+        height: 350px;
+    }
+
+    .block_info_2_aboutUs_En .block_222 .block_father_2 {
+        justify-content: left;
+        height: 350px;
+    }  
+
+    .block_info_2_aboutUs_En .block_222 .block_father_2 .center_text_2 {
+        height: 250px;
+    }
+
+    /*  */
+
+    .block_info_3_aboutUs_En {
+        height: 880px;
+    }
+
+    .block_info_3_aboutUs_En .block_1 {
+        height: 280px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .block_info_3_aboutUs_En .block_1 .block_father {
+        height: 280px;
+
+    }
+}
